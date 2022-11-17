@@ -1,5 +1,6 @@
 import pickle
 import numpy as np
+# 打开训练的参数
 w1,voc_index,index_voc,w2 = pickle.load(open('word2vec.pkl','rb'))
 
 def word_voc(word):
